@@ -62,8 +62,8 @@ a { color: inherit; text-decoration: none; }
   gap: 24px;
 }
 
-.logo img { height: 52px; width: auto; transition: height var(--transition); }
-.site-header.scrolled .logo img { height: 44px; }
+.logo img { height: 68px; width: auto; transition: height var(--transition); }
+.site-header.scrolled .logo img { height: 58px; }
 
 .nav-desktop {
   display: flex;
@@ -874,7 +874,7 @@ section { padding: 100px 0; }
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.footer-brand img { height: 64px; margin-bottom: 16px; }
+.footer-brand img { height: 80px; margin-bottom: 16px; }
 
 .footer-brand p {
   font-size: 14px;
