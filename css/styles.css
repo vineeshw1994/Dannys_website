@@ -688,7 +688,22 @@ section { padding: 100px 0; }
 .products-page .btn-enquire:hover { background: var(--navy); color: var(--white); }
 
 /* ── Information page ── */
-.info-page { padding: 60px 0 100px; }
+.info-page { padding: 40px 0 100px; }
+
+.info-product-image {
+  text-align: center;
+  max-width: 460px;
+  margin: 0 auto 40px;
+  padding: 0 16px;
+}
+
+.info-product-image img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  margin: 0 auto;
+  filter: drop-shadow(0 20px 40px rgba(5, 11, 22, 0.15));
+}
 
 .info-content {
   max-width: 820px;
@@ -781,6 +796,11 @@ section { padding: 100px 0; }
 
 @media (max-width: 768px) {
   .info-content { padding: 28px 24px; }
+  .info-product-image {
+    max-width: 320px;
+    margin-bottom: 32px;
+  }
+  .info-product-image img { max-height: 280px; }
 }
 
 /* ── About band ── */
